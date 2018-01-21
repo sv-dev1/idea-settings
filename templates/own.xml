@@ -1,0 +1,30 @@
+<templateSet group="own">
+  <template name="tp" value="${$END$}" description="String template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="($params$) =&gt; {&#10;    $end$&#10;}" description="ES6 Function" toReformat="true" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fns" value="($params$) =&gt; $end$" description="ES6 Function (short)" toReformat="true" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="lodash" value="import _ from 'lodash';" description="Add lodash" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
