@@ -27,4 +27,14 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="cls" value="/**&#10; * @author: Dumitrana Alinus &lt;alin.designstudio@gmail.com&gt;&#10; * @class: $name$&#10; * @scope:&#10; * @date: $date$&#10; * @time: $time$&#10; */&#10;export class $name$ {&#10;    $end$&#10;}&#10; " description="Create new javascript class" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="false" />
+    <variable name="name" expression="capitalize(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
+    <variable name="end" expression="" defaultValue="// code..." alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
