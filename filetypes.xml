@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="setup" type="Bash" />
       <mapping pattern="install" type="Bash" />
       <mapping pattern=".standyrc" type="JSON" />
       <mapping pattern=".bashrc" type="PLAIN_TEXT" />
