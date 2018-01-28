@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".standyrc" type="JSON" />
       <mapping pattern=".bashrc" type="PLAIN_TEXT" />
+      <mapping pattern="docker" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
