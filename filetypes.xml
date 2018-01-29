@@ -4,6 +4,7 @@
       <mapping pattern="config" type="Bash" />
       <mapping pattern="setup" type="Bash" />
       <mapping pattern="install" type="Bash" />
+      <mapping pattern="finally" type="Bash" />
       <mapping pattern=".standyrc" type="JSON" />
       <mapping pattern=".bashrc" type="PLAIN_TEXT" />
       <mapping pattern="docker" type="PLAIN_TEXT" />
