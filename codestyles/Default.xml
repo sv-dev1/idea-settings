@@ -1,4 +1,5 @@
 <code_scheme name="Default" version="173">
+  <option name="RIGHT_MARGIN" value="160" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
@@ -83,6 +84,7 @@
     <option name="IF_BRACE_FORCE" value="3" />
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
+    <option name="RIGHT_MARGIN" value="160" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
     <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
