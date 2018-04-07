@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="ld" value="import $D$ from 'lodash/$D$';" description="lodash" toReformat="false" toShortenFQNames="true">
+    <variable name="D" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
