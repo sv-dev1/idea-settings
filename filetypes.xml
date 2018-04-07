@@ -1,9 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="ComponentSupport" type="PLAIN_TEXT" />
-      <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".env\" type="PLAIN_TEXT" />
+      <mapping pattern="Management/DefaultController" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern="DefaultController" type="PLAIN_TEXT" />
+      <mapping pattern="ComponentSupport" type="PLAIN_TEXT" />
       <mapping ext="gzip" type="PLAIN_TEXT" />
       <mapping ext="gz" type="TSLint" />
     </extensionMap>
