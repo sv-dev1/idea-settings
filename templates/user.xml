@@ -6,4 +6,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="asi" value="import('$D$' /* webpackChunkName: '$E$' */)" description="Async import" toReformat="false" toShortenFQNames="true">
+    <variable name="D" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
