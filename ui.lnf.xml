@@ -20,6 +20,7 @@
       <NestingRule child-file-suffix=".scss" parent-file-suffix=".js" />
       <NestingRule child-file-suffix=".html" parent-file-suffix=".js" />
       <NestingRule child-file-suffix=".mod.scss" parent-file-suffix=".js" />
+      <NestingRule child-file-suffix=".style" parent-file-suffix=".js" />
       <NestingRule child-file-suffix=".js" parent-file-suffix=".jsx" />
       <NestingRule child-file-suffix=".js.map" parent-file-suffix=".jsx" />
       <NestingRule child-file-suffix=".css" parent-file-suffix=".less" />
