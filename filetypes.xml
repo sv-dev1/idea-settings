@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="pre-commit" type="JSHint" />
       <mapping pattern="2eb7677744269a612028dfbe3f29d857" type="PHP" />
       <mapping pattern="Management/DefaultController" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
