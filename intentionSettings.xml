@@ -1,5 +1,6 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="Language Injection/Edit Injected Fragment" />
+    <ignoreAction name="XML/Collapse empty tag" />
   </component>
 </application>
