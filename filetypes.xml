@@ -13,6 +13,7 @@
       <mapping ext="bk" type="PLAIN_TEXT" />
       <mapping ext="gzip" type="PLAIN_TEXT" />
       <mapping ext="t" type="PLAIN_TEXT" />
+      <mapping ext="ejs" type="PLAIN_TEXT" />
       <mapping ext="style" type="SCSS" />
       <mapping ext="gz" type="TSLint" />
     </extensionMap>
