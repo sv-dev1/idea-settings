@@ -17,6 +17,7 @@
       <mapping ext="t" type="PLAIN_TEXT" />
       <mapping ext="style" type="SCSS" />
       <mapping ext="gz" type="TSLint" />
+      <mapping pattern="server" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
