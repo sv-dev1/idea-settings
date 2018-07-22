@@ -44,8 +44,8 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="comp" value="/**&#10; * @author: Dumitrana Alinus &lt;alin.designstudio@gmail.com&gt;&#10; * @class: $name$&#10; * @date:  $date$&#10; * @time:  $time$&#10; * @scope:&#10; */&#10;import * as React from 'react';&#10;&#10;export class $name$ extends React.PureComponent&lt;{}, {}&gt; {&#10;    /**&#10;     * Render Function&#10;     * @returns {React.ReactNode}&#10;     */&#10;    public render (): React.ReactNode{&#10;        return (&#10;            $end$        &#10;        );&#10;    }&#10;}&#10; " description="Create React Component" toReformat="true" toShortenFQNames="true">
-    <variable name="name" expression="capitalize(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
+  <template name="comp" value="/**&#10; * @author: Dumitrana Alinus &lt;alin.designstudio@gmail.com&gt;&#10; * @class: $name$&#10; * @date:  $date$&#10; * @time:  $time$&#10; * @scope:&#10; */&#10;import * as React from 'react';&#10;&#10;export class $name$ extends React.PureComponent&lt;{}, {}&gt; {&#10;    /**&#10;     * Render Function&#10;     * @returns {React.ReactNode}&#10;     */&#10;    public render (): React.ReactNode{&#10;        return (&#10;            $end$        &#10;        );&#10;    }&#10;}&#10;" description="Create React Component" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="false" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
