@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="pre-commit" type="JSHint" />
+      <mapping pattern="register" type="JavaScript" />
       <mapping pattern="a56da9caeb920caca39450e2245cf85c" type="PHP" />
       <mapping pattern="2eb7677744269a612028dfbe3f29d857" type="PHP" />
       <mapping pattern="99dc2c9c520fc14d5ef5285776f82fe2" type="PHP" />
