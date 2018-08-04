@@ -1,6 +1,9 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="160" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <option name="FORMATTER_ON_TAG" value="@?formatter:\s?on" />
+  <option name="FORMATTER_OFF_TAG" value="@?formatter:\s?off" />
+  <option name="FORMATTER_TAGS_ACCEPT_REGEXP" value="true" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
     <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
