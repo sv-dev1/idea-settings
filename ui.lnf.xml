@@ -44,13 +44,13 @@
   <component name="UISettings">
     <option name="ALLOW_MERGE_BUTTONS" value="false" />
     <option name="EDITOR_TAB_PLACEMENT" value="3" />
-    <option name="FONT_FACE" value="Roboto" />
+    <option name="FONT_FACE" value="Lato Medium" />
     <option name="FONT_SCALE" value="1.0" />
-    <option name="FONT_SIZE" value="13" />
+    <option name="FONT_SIZE" value="18" />
     <option name="MOVE_MOUSE_ON_DEFAULT_BUTTON" value="true" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="18" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
     <option name="SHOW_NAVIGATION_BAR" value="false" />
-    <option name="SHOW_TOOL_WINDOW_NUMBERS" value="false" />
   </component>
 </application>
