@@ -13,6 +13,7 @@
       <mapping pattern="header" type="PLAIN_TEXT" />
       <mapping pattern=".dont-touch" type="PLAIN_TEXT" />
       <mapping pattern="nothing" type="PLAIN_TEXT" />
+      <mapping pattern="Loading" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="ComponentSupport" type="PLAIN_TEXT" />
       <mapping ext="bk" type="PLAIN_TEXT" />
