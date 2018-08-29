@@ -7,6 +7,7 @@
       <mapping pattern="2eb7677744269a612028dfbe3f29d857" type="PHP" />
       <mapping pattern="99dc2c9c520fc14d5ef5285776f82fe2" type="PHP" />
       <mapping pattern="getEmSize" type="PLAIN_TEXT" />
+      <mapping pattern="PrivateRoute" type="PLAIN_TEXT" />
       <mapping pattern="DefaultController" type="PLAIN_TEXT" />
       <mapping pattern=".env\" type="PLAIN_TEXT" />
       <mapping pattern="Management/DefaultController" type="PLAIN_TEXT" />
