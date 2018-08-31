@@ -1,0 +1,6 @@
+<templateSet group="React">
+  <template name="rrc" value="import React, { Component } from 'react';&#10;import { connect } from 'app/src/lib/connect';&#10;&#10;@connect()&#10;class $TM_FILENAME_BASE$ extends Component {&#10;    render() {&#10;        return (&#10;            &lt;div&gt;&#10;                $END$&#10;            &lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default $TM_FILENAME_BASE$;" description="Creates a React component class connected to redux" toReformat="true" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(filenameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
