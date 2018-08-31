@@ -16,6 +16,7 @@
       <mapping pattern="style/getEmSize" type="PLAIN_TEXT" />
       <mapping pattern="header" type="PLAIN_TEXT" />
       <mapping pattern=".dont-touch" type="PLAIN_TEXT" />
+      <mapping pattern="Components" type="PLAIN_TEXT" />
       <mapping pattern="nothing" type="PLAIN_TEXT" />
       <mapping pattern="Loading" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
