@@ -1,0 +1,16 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="React" />
+          <option name="key" value="rcc" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="React" />
+          <option name="key" value="rrc" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>
