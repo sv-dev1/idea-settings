@@ -140,4 +140,16 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ddi" value="const { dd } = require('dumper.js');" description="Import dd" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="dd($END$);" description="Import dd" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
