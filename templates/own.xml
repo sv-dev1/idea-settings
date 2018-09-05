@@ -146,10 +146,12 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="dd" value="dd($END$);" description="Import dd" toReformat="true" toShortenFQNames="true">
+  <template name="if" value="{ $condition$ ? (&#10;    $then$&#10;) : $end$ }" description="React component: if condition" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="then" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="false" />
     <context>
-      <option name="ES6_STATEMENT" value="true" />
-      <option name="JS_STATEMENT" value="true" />
+      <option name="JSX_HTML" value="true" />
     </context>
   </template>
 </templateSet>
