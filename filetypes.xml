@@ -22,6 +22,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="ComponentSupport" type="PLAIN_TEXT" />
       <mapping ext="bk" type="PLAIN_TEXT" />
+      <mapping ext="njk" type="PLAIN_TEXT" />
       <mapping ext="gzip" type="PLAIN_TEXT" />
       <mapping ext="locale" type="PLAIN_TEXT" />
       <mapping ext="t" type="PLAIN_TEXT" />
