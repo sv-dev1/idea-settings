@@ -1,5 +1,5 @@
 <templateSet group="OwnC++">
-  <template name="ndef" value="#ifndef $DEF$&#10;#define $DEF$ 1&#10;$END$&#10;#endif // $DEF$" description="Strict Define" toReformat="false" toShortenFQNames="true">
+  <template name="ndef" value="#ifndef $DEF$&#10;#define $DEF$ 1&#10;$END$&#10;#endif // $DEF$" description="Strict Define" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="DEF" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="c" value="true" />
