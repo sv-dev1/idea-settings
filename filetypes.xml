@@ -7,20 +7,24 @@
       <mapping pattern="2eb7677744269a612028dfbe3f29d857" type="PHP" />
       <mapping pattern="99dc2c9c520fc14d5ef5285776f82fe2" type="PHP" />
       <mapping pattern="getEmSize" type="PLAIN_TEXT" />
-      <mapping pattern="PrivateRoute" type="PLAIN_TEXT" />
       <mapping pattern="DefaultController" type="PLAIN_TEXT" />
       <mapping pattern=".env\" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Management/DefaultController" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern="style/getEmSize" type="PLAIN_TEXT" />
       <mapping pattern="header" type="PLAIN_TEXT" />
+      <mapping pattern="PrivateRoute" type="PLAIN_TEXT" />
       <mapping pattern=".dont-touch" type="PLAIN_TEXT" />
+      <mapping pattern="Components" type="PLAIN_TEXT" />
       <mapping pattern="nothing" type="PLAIN_TEXT" />
       <mapping pattern="Loading" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="ComponentSupport" type="PLAIN_TEXT" />
       <mapping ext="bk" type="PLAIN_TEXT" />
+      <mapping ext="njk" type="PLAIN_TEXT" />
       <mapping ext="gzip" type="PLAIN_TEXT" />
+      <mapping ext="locale" type="PLAIN_TEXT" />
       <mapping ext="t" type="PLAIN_TEXT" />
       <mapping ext="style" type="SCSS" />
       <mapping pattern="server" type="TypeScript" />
