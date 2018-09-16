@@ -1,8 +1,64 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="tu@userDefined" key=".tu" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ === 'undefined'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tni@userDefined" key=".tni" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ !== 'number'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tb@userDefined" key=".tb" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ === 'boolean'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ts@userDefined" key=".ts" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ === 'string'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ts@userDefined" key=".tsi" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ !== 'string'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toi@userDefined" key=".toi" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ !== 'object'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tai@userDefined" key=".tai" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="!Array.isArray($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="dd@userDefined" key=".dd" provider="builtin.js" language-level="ES5" topmost="true">
       <conditions />
-      <template name="fakeKey" value="console.dump($EXPR$);" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="console.dump($EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tu@userDefined" key=".tui" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ !== 'undefined'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="to@userDefined" key=".to" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ === 'object'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tbi@userDefined" key=".tbi" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ !== 'boolean'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ta@userDefined" key=".ta" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="Array.isArray($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tf@userDefined" key=".tf" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ === 'function'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tn@userDefined" key=".tn" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ === 'number'" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tfi@userDefined" key=".tfi" provider="builtin.js" language-level="ES5" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="typeof $EXPR$ !== 'function'" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
