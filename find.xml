@@ -9,7 +9,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.jsx" />
+    <option name="FILE_MASK" value="*.locale" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -22,5 +22,6 @@
     <mask>*.html</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>*.locale</mask>
   </component>
 </application>
