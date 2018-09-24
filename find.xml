@@ -9,6 +9,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -17,10 +18,10 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.ts</mask>
-    <mask>*.php</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
     <mask>*.locale</mask>
+    <mask>*.php</mask>
   </component>
 </application>
