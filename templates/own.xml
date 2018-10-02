@@ -167,4 +167,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="memh" value="handlers = {};&#10;&#10;handle$name$ (name) {&#10;    if (!this.handlers[name]) {&#10;        this.handlers[name] = () =&gt; {&#10;            &#10;        };&#10;    }&#10;    &#10;    return this.handlers[name];&#10;}" description="Add memoize handler" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_CLASS" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
 </templateSet>
