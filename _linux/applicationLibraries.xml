@@ -1,0 +1,15 @@
+<application>
+  <component name="libraryTable">
+    <library name="lodash" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Projects/wooter/apparel/node_modules/lodash" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Projects/wooter/apparel/node_modules/lodash" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
