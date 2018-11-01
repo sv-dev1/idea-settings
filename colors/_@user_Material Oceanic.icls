@@ -4,10 +4,11 @@
     <property name="created">2018-01-21T06:42:15</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2018-10-27T04:29:50</property>
+    <property name="modified">2018-11-01T16:41:19</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Fira Code" />
+  <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LIGATURES" value="true" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
