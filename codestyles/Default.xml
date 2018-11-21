@@ -22,6 +22,7 @@
     <option name="ALIGN_IMPORTS" value="true" />
     <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
     <option name="SPACES_WITHIN_INTERPOLATION_EXPRESSIONS" value="true" />
+    <option name="IMPORT_MERGE_MEMBERS" value="FALSE" />
   </JSCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
@@ -80,6 +81,7 @@
     <option name="RIGHT_MARGIN" value="160" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="BLANK_LINES_AROUND_FIELD" value="1" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
