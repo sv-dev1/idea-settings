@@ -1,8 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
-      <mapping ext="locale" type="PLAIN_TEXT" />
+      <mapping pattern="dos2unix" type="JavaScript" />
     </extensionMap>
   </component>
 </application>
